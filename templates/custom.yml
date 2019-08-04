@@ -1,0 +1,23 @@
+version: 0.20
+templates:
+  sk-normal:
+    enabled: true
+    extrazoomout: 2
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: surface
+        title: "Surface"
+        prefix: t
+        perspective: sk-satellite
+        shader: jslegacy
+        lighting: shadows
+        mapzoomin: 2
+        boostzoom: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: jslegacy
+        lighting: shadows
+        mapzoomin: 4
