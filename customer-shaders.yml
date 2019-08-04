@@ -1,0 +1,8 @@
+# The user is free to add new and custom shaders here, including replacements for standard ones
+# Dynmap's install will not overwrite it
+shaders:
+    
+  # Texture pack based shader for standard Minecraft textures
+  - class: org.dynmap.hdmap.TexturePackHDShader
+    name: jslegacy
+    texturepack: jslegacy
